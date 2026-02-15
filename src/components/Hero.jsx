@@ -12,13 +12,15 @@ const Hero = () => {
     <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-white to-green-50 relative px-4 overflow-hidden">
       {/* Animated background elements */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-20 left-10 w-32 h-32 bg-soft-green/10 rounded-full animate-float"></div>
+        <div className="absolute top-20 left-10 w-32 h-32 bg-soft-green/10 rounded-full animate-float flex items-center justify-center">
+          <span className="text-6xl">🍀</span>
+        </div>
         <div className="absolute top-40 right-20 w-24 h-24 bg-soft-green/8 rounded-full animate-float" style={{ animationDelay: '1s' }}></div>
         <div className="absolute bottom-20 left-1/4 w-40 h-40 bg-soft-green/5 rounded-full animate-float" style={{ animationDelay: '2s' }}></div>
       </div>
       
       <div className="text-center max-w-4xl relative z-10">
-        <h1 className="text-6xl md:text-7xl font-extralight text-soft-green mb-6 leading-tight tracking-tight animate-slideInLeft">
+        <h1 className="text-6xl md:text-7xl font-extralight text-soft-green mb-6 leading-tight tracking-tight animate-slideInLeft relative">
           Redefining Love
         </h1>
         <p className="text-xl md:text-2xl font-light text-gray-600 leading-relaxed mb-8 animate-slideInRight" style={{ animationDelay: '0.3s' }}>

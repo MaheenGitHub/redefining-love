@@ -42,7 +42,32 @@ const Footer = () => {
           </p>
         </div>
         
-        <div className="md:col-span-3 text-center animate-slideInRight" style={{ animationDelay: '0.4s' }}>
+        <div className="text-center animate-slideInRight" style={{ animationDelay: '0.4s' }}>
+          <h4 className="text-lg md:text-xl font-semibold text-soft-green mb-4">
+            Connect
+          </h4>
+          <div className="flex justify-center gap-4 mb-6">
+            <a 
+              href="https://www.linkedin.com/in/maheenfatimaa/" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="group flex items-center gap-2 bg-blue-50 text-blue-600 px-4 py-3 rounded-full text-sm font-medium border border-blue-200 hover:bg-blue-600 hover:text-white transition-all duration-300 shadow-md hover:shadow-lg animate-fadeIn"
+              style={{ animationDelay: '0.5s' }}
+            >
+             
+              LinkedIn
+            </a>
+            <a 
+              href="https://github.com/MaheenGitHub" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="group flex items-center gap-2 bg-gray-50 text-gray-700 px-4 py-3 rounded-full text-sm font-medium border border-gray-200 hover:bg-gray-800 hover:text-white transition-all duration-300 shadow-md hover:shadow-lg animate-fadeIn"
+              style={{ animationDelay: '0.6s' }}
+            >
+              
+              GitHub
+            </a>
+          </div>
           <p className="text-xs text-gray-500 font-light animate-fadeIn" style={{ animationDelay: '0.7s' }}>
             © {currentYear} Built with React | Professional development project
           </p>
