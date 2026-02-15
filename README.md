@@ -25,9 +25,7 @@ https://redefining-love.vercel.app
 
 ### Preview
 
-<img src="preview.gif" width="100%" alt="Project Preview">
-
-*(Optional: record a GIF and name it preview.gif, then upload to repo)*
+![Project Preview](preview.png)
 
 
 
@@ -135,7 +133,7 @@ npm run preview
 ```
 
 
-### What This Project Demonstrates
+### 💡 What This Project Demonstrates
 
 Professional React development
 
@@ -168,12 +166,11 @@ This project is licensed under the MIT License.
 
 ---
 
-### Philosophy Behind the Project
+### 💖 Philosophy Behind the Project
 
 "Love is not just a feeling.
 It is a responsibility you choose, a stability you protect, and a growth you commit to."
 
-<p align="center"> Built with purpose, clarity, and intention. </p> ```
 
 
 
