@@ -3,19 +3,22 @@ import React from 'react';
 const UrduPoetry = () => {
   const poetryCollection = [
     {
-      couplet: "خودی کو کر بلند اتنا کہ ہر تقدیر سے پہلے\nخدا بندے سے خود پوچھے بتا تیری رضا کیا ہے",
+      line1: "خودی کو کر بلند اتنا کہ ہر تقدیر سے پہلے",
+      line2: "خدا بندے سے خود پوچھے بتا تیری رضا کیا ہے",
       transliteration: "Khudi ko kar buland itna ke har taqdeer se pehle\nKhuda bande se khud pooche bata teri raza kya hai",
       poet: "Allama Iqbal",
       theme: "On self-elevation and divine connection"
     },
     {
-      couplet: "اور بھی دکھ ہیں زمانے میں محبت کے سوا\nراحتں اور بھی ہیں وصل کی راحت کے سوا",
+      line1: "اور بھی دکھ ہیں زمانے میں محبت کے سوا",
+      line2: "راحتں اور بھی ہیں وصل کی راحت کے سوا",
       transliteration: "Aur bhi dukh hain zamane mein mohabbat ke siwa\nRahein aur bhi hain vasl ki raahat ke siwa",
       poet: "Faiz Ahmad Faiz",
       theme: "On the deeper pains and comforts beyond love"
     },
     {
-      couplet: "وجودِ زن سے ہے تصویرِ کائنات میں رنگ\nاسی کے ساز سے ہے زندگی کا سوزِ دروں",
+      line1: "وجودِ زن سے ہے تصویرِ کائنات میں رنگ",
+      line2: "اسی کے ساز سے ہے زندگی کا سوزِ دروں",
       transliteration: "Wujood-e-zan se hai tasveer-e-kainaat mein rang\nUssi ke saaz se hai zindagi ka soz-e-daroon",
       poet: "Allama Iqbal",
       theme: "On the essence of feminine presence in creation"
@@ -51,7 +54,10 @@ const UrduPoetry = () => {
             >
               <div className="text-right mb-8">
                 <p className="text-2xl md:text-3xl leading-relaxed text-gray-900 italic font-light font-urdu animate-fadeIn group-hover:text-emerald-700 transition-colors duration-300" style={{ animationDelay: `${0.6 + index * 0.3}s` }}>
-                  {poem.couplet}
+                  {poem.line1}
+                </p>
+                <p className="text-2xl md:text-3xl leading-relaxed text-gray-900 italic font-light font-urdu animate-fadeIn group-hover:text-emerald-700 transition-colors duration-300" style={{ animationDelay: `${0.6 + index * 0.3}s` }}>
+                  {poem.line2}
                 </p>
               </div>
               

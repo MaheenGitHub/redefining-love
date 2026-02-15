@@ -13,12 +13,7 @@ const InteractiveReflection = () => {
         "• Invest in meaningful interests and valuable friendships", 
         "• Seek connections based on shared values and mutual respect",
         "• Remember: this phase prepares you for healthier future relationships"
-      ],
-      poetry: {
-        couplet: "دل ہی تو ہے نہ سنگ و خشت، درد سے بھر نہ آئے کیوں\nرویں گے ہزار بار، کوئی ہمیں ستائے کیوں۔",
-        transliteration: "Dil hi to hai na sang-o-khisht, dard se bhar na aaye kyun\nRoyenge hum hazaar baar, koi humein sataye kyun.",
-        poet: "Mirza Ghalib"
-      }
+      ]
     },
     confused: {
       title: "Emotional Clarity",
@@ -29,12 +24,7 @@ const InteractiveReflection = () => {
         "• Build friendship foundation before pursuing deeper connection",
         "• Observe actions and consistency rather than fleeting feelings",
         "• Trust that genuine compatibility reveals itself naturally over time"
-      ],
-      poetry: {
-        couplet: "سنا ہے لوگ اسے آنکھ بھر کے دیکھتے ہیں\nتو اس کے شہر میں کچھ دن رہر کے دیکھتے ہیں۔",
-        transliteration: "Suna hai log usay aankh bhar ke dekhte hain\nTo us ke shehar mein kuch din raher ke dekhte hain.",
-        poet: "Ahmad Faraz"
-      }
+      ]
     },
     partnership: {
       title: "Building Partnership",
@@ -45,12 +35,7 @@ const InteractiveReflection = () => {
         "• Practice conflict resolution with understanding and patience",
         "• Align on shared values, financial perspectives, and life vision",
         "• Commit to continuous growth as individuals and as partners"
-      ],
-      poetry: {
-        couplet: "مجھ سے پہلی سی محبت میرے محبوب نہ مانگ۔",
-        transliteration: "Mujh se pehli si mohabbat mere mehboob na maang.",
-        poet: "Faiz Ahmed Faiz"
-      }
+      ]
     }
   };
 
@@ -101,7 +86,7 @@ const InteractiveReflection = () => {
               </span>
               {selectedReflection.title}
             </h3>
-            <div className="space-y-4 mb-8">
+            <div className="space-y-4">
               {selectedReflection.message.map((line, index) => (
                 <p 
                   key={index} 
@@ -115,23 +100,6 @@ const InteractiveReflection = () => {
                   {line}
                 </p>
               ))}
-            </div>
-
-            {/* Poetry Section */}
-            <div className="border-t border-soft-green/20 pt-8">
-              <div className="text-right mb-4">
-                <p className="text-lg md:text-xl leading-relaxed text-gray-700 italic font-light font-urdu animate-fadeIn">
-                  {selectedReflection.poetry.couplet}
-                </p>
-              </div>
-              <div className="text-center space-y-2">
-                <p className="text-sm text-gray-600 italic animate-fadeIn">
-                  {selectedReflection.poetry.transliteration}
-                </p>
-                <p className="text-sm text-soft-green font-medium animate-fadeIn">
-                  — {selectedReflection.poetry.poet}
-                </p>
-              </div>
             </div>
           </div>
         )}
