@@ -16,13 +16,12 @@
 A modern React project exploring love as responsibility, growth, stability, and commitment — expressed through meaningful UI and interactive design.
 </p>
 
----
 
 ### Live Demo
 
 https://redefining-love.vercel.app
 
----
+
 
 ### Preview
 
@@ -30,9 +29,9 @@ https://redefining-love.vercel.app
 
 *(Optional: record a GIF and name it preview.gif, then upload to repo)*
 
----
 
-### Project Vision
+
+### 🎯 Project Vision
 
 This project redefines love beyond emotion — presenting it as a conscious decision built on:
 
@@ -45,7 +44,7 @@ This project redefines love beyond emotion — presenting it as a conscious deci
 
 It combines philosophy with modern frontend engineering.
 
----
+
 
 ### Features
 
@@ -57,9 +56,9 @@ It combines philosophy with modern frontend engineering.
 - Production deployment on Vercel
 - Professional code structure
 
----
 
-### Tech Stack
+
+### 🛠 Tech Stack
 
 **Frontend**
 - React
@@ -78,7 +77,7 @@ It combines philosophy with modern frontend engineering.
 - Git
 - GitHub
 
----
+
 
 ### Folder Structure
 
@@ -101,8 +100,6 @@ redefining-love
 
 ```
 
-
----
 
 ### Installation
 
@@ -137,7 +134,7 @@ Preview production build
 npm run preview
 ```
 
----
+
 ### What This Project Demonstrates
 
 Professional React development
