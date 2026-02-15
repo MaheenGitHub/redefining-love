@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "npx vite build",
+    "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
     "deploy": "npm run build && npx vercel --prod"
@@ -26,9 +26,9 @@
     "globals": "^16.5.0",
     "postcss": "^8.4.24",
     "tailwindcss": "^3.3.3",
-    "vite": "^8.0.0-beta.13"
+    "vite": "^5.4.0"
   },
   "overrides": {
-    "vite": "^8.0.0-beta.13"
+    "vite": "^5.4.0"
   }
 }
