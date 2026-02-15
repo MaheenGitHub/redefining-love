@@ -12,7 +12,6 @@
 
 </p>
 
-<p align="center">
 A modern React project exploring love as responsibility, growth, stability, and commitment — expressed through meaningful UI and interactive design.
 </p>
 
@@ -65,15 +64,11 @@ It combines philosophy with modern frontend engineering.
 - CSS3
 - Tailwind CSS
 
-**Build Tool**
-- Vite
+**Build Tool** : Vite
 
-**Deployment**
-- Vercel
+**Deployment** : Vercel
 
-**Version Control**
-- Git
-- GitHub
+**Version Control** : Git , GitHub
 
 
 
