@@ -17,7 +17,7 @@ Redefining Love is a modern React micro-project exploring love as a conscious ch
 
 ## Live Demo
 
-https://redefining-love.vercel.app
+View the project live : https://redefining-love.vercel.app
 
 
 
@@ -131,7 +131,7 @@ npm run preview
 
 If this repository helps you, feel free to **star ⭐ it**. Suggestions, corrections, and improvements are welcome.
 
----
+
 
 ## Author
 **Maheen Fatima**  
